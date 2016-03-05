@@ -90,7 +90,7 @@ def main():
     # test_hash_table()
     # test_binary_search()
     # test_depth_first_search()
-    #avl_tree.test_avl_tree()
+    # avl_tree.test_avl_tree()
     tower_of_hanoi.test_hanoi(3)
 
 
