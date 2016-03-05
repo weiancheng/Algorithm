@@ -7,6 +7,7 @@ from Algorithm import DepthFirstSearch
 from DataStructure import Vector
 from Algorithm import QuickSort
 from DataStructure import avl_tree
+from Algorithm import tower_of_hanoi
 
 def test_quick_sort():
     a = [9, 8, 7, 6, 5, 4, 3, 2, 1]
@@ -89,7 +90,8 @@ def main():
     # test_hash_table()
     # test_binary_search()
     # test_depth_first_search()
-    avl_tree.test_avl_tree()
+    #avl_tree.test_avl_tree()
+    tower_of_hanoi.test_hanoi(3)
 
 
 if __name__ == '__main__':
